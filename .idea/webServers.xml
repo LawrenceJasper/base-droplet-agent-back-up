@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9361fc0-9eca-4ffe-aa14-08f87c9127a6" name="Third droplet">
+        <fileTransfer rootFolder="/home/pi/droplet3" accessType="SFTP" host="10.10.20.187" port="22" sshConfigId="4fdc4ac8-715e-4cb6-be60-2a1c745a9a72" sshConfig="pi@10.10.20.187:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
